@@ -9,6 +9,7 @@ import Enquiry from './Component/Enquiry';
 import Learn from './Component/Learn';
 import Project from './Component/Project';
 import Intro from './Component/Intro';
+import Ourteam from './Component/Ourteam';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Learn' element={<Learn />} />
         <Route path='/Project' element={<Project />} />
         <Route path='/Intro' element={<Intro />} />
+        <Route path='/Ourteam' element={<Ourteam />} />
       </Routes>
       <Footer />
     </div>
